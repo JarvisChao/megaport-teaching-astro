@@ -22,6 +22,8 @@ import {
 import '../styles/global.css'
 import '../styles/scss/style.scss'
 
+const basePath = import.meta.env.BASE_URL;
+
 // https://docs.astro.build/zh-tw/basics/astro-components/#元件參數
 const { 
 	pageTitle,
@@ -98,12 +100,12 @@ if (!pageTitle) {
 
 		<!-- Favicon -->
 		<!-- https://realfavicongenerator.net/ -->
-		<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="shortcut icon" href="/favicon.ico" />
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" href={`${basePath}/favicon-96x96.png`} sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href={`${basePath}/favicon.svg`} />
+		<link rel="shortcut icon" href={`${basePath}/favicon.ico`} />
+		<link rel="apple-touch-icon" sizes="180x180" href={`${basePath}/apple-touch-icon.png`} />
 		<meta name="apple-mobile-web-app-title" content="大港開唱" />
-		<link rel="manifest" href="/site.webmanifest" />
+		<link rel="manifest" href={`${basePath}/site.webmanifest`} />
 
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

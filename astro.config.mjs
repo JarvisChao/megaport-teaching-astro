@@ -7,6 +7,8 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://JarvisChao.github.io',
+  base: '/megaport-teaching-astro',
   vite: {
     plugins: [tailwindcss()],
 
