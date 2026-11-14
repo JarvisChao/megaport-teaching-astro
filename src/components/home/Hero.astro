@@ -1,0 +1,70 @@
+---
+// Server Side
+import 'swiper/css';
+// 按需引入
+import 'swiper/css/autoplay';
+import 'swiper/css/effect-fade';
+---
+
+<!-- Client Side -->
+<script>
+  import Swiper from 'swiper';
+  // 按需引入
+  import { Autoplay, EffectFade } from 'swiper/modules';
+
+  const swiper = new Swiper('.l-home-hero__swiper', {
+    modules: [Autoplay, EffectFade],
+    effect: 'fade', // 開啟淡入淡出效果
+    fadeEffect: {
+      crossFade: true // 開啟交叉淡入淡出（避免畫面重疊或閃爍）
+    },
+    loop: true, // 循環播放
+    longSwipesRatio: 0.1, // 慢速拖曳不用到一半才換下一張
+    speed: 1200, // 過渡時間，像 duration 一樣
+    autoplay: {
+      delay: 3000, // 自動播放間隔時間（毫秒）
+      disableOnInteraction: false, // 用戶操作後是否停止自動播放
+    },
+  });
+</script>
+
+<div class="l-home-hero">
+  <div class="swiper h-full l-home-hero__swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide l-home-hero__slide">
+        <figure class="size-full l-home-hero__img-mask">
+          <img src="/img/banner/img-01.jpg" alt="大港開唱舞台" class="u-object-fit">
+        </figure>
+      </div>
+      <div class="swiper-slide l-home-hero__slide">
+        <figure class="size-full l-home-hero__img-mask">
+          <img src="/img/banner/img-02.jpg" alt="大港開唱舞台" class="u-object-fit">
+        </figure>
+      </div>
+      <div class="swiper-slide l-home-hero__slide">
+        <figure class="size-full l-home-hero__img-mask">
+          <img src="/img/banner/img-03.jpg" alt="大港開唱舞台" class="u-object-fit">
+        </figure>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style lang="scss">
+  .l-home-hero {
+    height: 100vh;
+
+    @include media(max-sm) {
+      height: 80vh;
+    }
+
+    &__slide.swiper-slide-active &__img-mask {
+      transform: scale(1.1)
+    }
+
+    &__img-mask {
+      transform: scale(1);
+      transition: transform 12s;
+    }
+  }
+</style>

@@ -1,0 +1,95 @@
+@use 'functions' as *;
+@use 'mixins' as *;
+
+:root {
+  // 所有數值除以 16 = 乘以 1 / 16
+  // 1rem 是為了計算時加上 rem 單位
+  --html-spacing: 1rem / 16;
+
+  // Section
+  --section-spacing-x: 6vw;
+  --section-spacing-y: var(--spacing-30);
+  @include media(max-sm) {
+    --section-spacing-x: 4vw;
+  }
+
+  // Container
+  --container-md: calc(var(--html-spacing) * 1600);
+  --container-default: calc(var(--html-spacing) * 1520);
+  --container-sm: calc(var(--html-spacing) * 1440);
+  --container-xs: calc(var(--html-spacing) * 1360);
+  --container-2xs: calc(var(--html-spacing) * 1280);
+  --container-3xs: calc(var(--html-spacing) * 880);
+
+  // Spacing
+  // 要在 CSS 變數使用 function 需要加上 #{}
+  // 不然會直接編譯 rem(*) 出去
+  --app-spacing-40: #{rem(160)};
+  --app-spacing-36: #{rem(144)};
+  --app-spacing-32: #{rem(128)};
+  --app-spacing-30: #{rem(120)};
+  --app-spacing-26: #{rem(104)};
+  --app-spacing-24: #{rem(96)};
+  --app-spacing-22: #{rem(88)};
+  --app-spacing-20: #{rem(80)};
+  --app-spacing-18: #{rem(72)};
+  --app-spacing-16: #{rem(64)};
+  --app-spacing-14: #{rem(56)};
+  --app-spacing-12: #{rem(48)};
+  --app-spacing-10: #{rem(40)};
+  --app-spacing-9: #{rem(36)};
+  --app-spacing-8: #{rem(32)};
+  --app-spacing-6: #{rem(24)};
+  --app-spacing-5: #{rem(20)};
+  --app-spacing-4: #{rem(16)};
+  --app-spacing-3: #{rem(12)};
+  --app-spacing-2: #{rem(8)};
+  --app-spacing-1_5: #{rem(6)};
+  --app-spacing-1: #{rem(4)};
+
+  @include media(max-sm) {
+    --app-spacing-40: 24vw;
+    --app-spacing-36: 22vw;
+    --app-spacing-32: 21vw;
+    --app-spacing-30: 20vw;
+    --app-spacing-26: 19vw;
+    --app-spacing-24: 18vw;
+    --app-spacing-22: 17vw;
+    --app-spacing-20: 16vw;
+    --app-spacing-18: 15vw;
+    --app-spacing-16: 14vw;
+    --app-spacing-14: 12vw;
+    --app-spacing-12: 10vw;
+    --app-spacing-10: 8vw;
+    --app-spacing-9: 7vw;
+    --app-spacing-8: 6vw;
+    --app-spacing-6: 5vw;
+    --app-spacing-5: 4vw;
+    --app-spacing-4: 3vw;
+    --app-spacing-3: 2vw;
+  }
+
+  // Text
+  --app-text-5xl: #{rem(64)};
+  --app-text-4xl: #{rem(40)};
+  --app-text-3xl: #{rem(32)};
+  --app-text-2xl: #{rem(28)};
+  --app-text-xl: #{rem(24)};
+  --app-text-lg: #{rem(20)};
+  --app-text-md: #{rem(18)};
+  --app-text-base: #{rem(16)};
+  --app-text-sm: #{rem(14)};
+  --app-text-xs: #{rem(12)};
+  @include media(max-md) {
+    --app-text-4xl: #{rem(36)};
+  }
+  @include media(max-sm) {
+    --app-text-5xl: #{rem(62)};
+    --app-text-4xl: #{rem(32)};
+    --app-text-3xl: #{rem(28)};
+    --app-text-2xl: #{rem(24)};
+    --app-text-xl: #{rem(22)};
+    --app-text-lg: #{rem(18)};
+    --app-text-md: #{rem(17)};
+  }
+}

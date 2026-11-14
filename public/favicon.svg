@@ -1,9 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 128 128">
-    <path d="M50.4 78.5a75.1 75.1 0 0 0-28.5 6.9l24.2-65.7c.7-2 1.9-3.2 3.4-3.2h29c1.5 0 2.7 1.2 3.4 3.2l24.2 65.7s-11.6-7-28.5-7L67 45.5c-.4-1.7-1.6-2.8-2.9-2.8-1.3 0-2.5 1.1-2.9 2.7L50.4 78.5Zm-1.1 28.2Zm-4.2-20.2c-2 6.6-.6 15.8 4.2 20.2a17.5 17.5 0 0 1 .2-.7 5.5 5.5 0 0 1 5.7-4.5c2.8.1 4.3 1.5 4.7 4.7.2 1.1.2 2.3.2 3.5v.4c0 2.7.7 5.2 2.2 7.4a13 13 0 0 0 5.7 4.9v-.3l-.2-.3c-1.8-5.6-.5-9.5 4.4-12.8l1.5-1a73 73 0 0 0 3.2-2.2 16 16 0 0 0 6.8-11.4c.3-2 .1-4-.6-6l-.8.6-1.6 1a37 37 0 0 1-22.4 2.7c-5-.7-9.7-2-13.2-6.2Z" />
-    <style>
-        path { fill: #000; }
-        @media (prefers-color-scheme: dark) {
-            path { fill: #FFF; }
-        }
-    </style>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><metadata><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"><rdf:Description><dc:creator>RealFaviconGenerator</dc:creator><dc:source>https://realfavicongenerator.net</dc:source></rdf:Description></rdf:RDF></metadata><style>
+    #light-icon {
+      display: inline;
+    }
+    #dark-icon {
+      display: none;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      #light-icon {
+        display: none;
+      }
+      #dark-icon {
+        display: inline;
+      }
+    }
+  </style><g id="light-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g><g transform="matrix(6.25,0,0,6.25,0,25)"><svg xmlns="http://www.w3.org/2000/svg" width="160" height="152" viewBox="0 0 160 152" fill="none"><path d="M47.1891 0L79.8773 56.3278V18.7759L47.1891 0Z" fill="#F48120"></path><path d="M112.565 0L79.8772 56.3278V18.7759L112.565 0Z" fill="#C64A1B"></path><path d="M47.1891 0H112.565L79.8773 18.7759L47.1891 0Z" fill="#F9A64A"></path><path d="M139.846 19.5074L95.8525 67.7884L131.982 56.3278L139.846 19.5074Z" fill="#F9A64A"></path><path d="M160 81.4435L95.8525 67.7883L131.982 56.3276L160 81.4435Z" fill="#C64A1B"></path><path d="M139.846 19.5074L160 81.4436L131.982 56.3278L139.846 19.5074Z" fill="#F48120"></path><path d="M149.677 112.899L89.9539 86.5642L112.074 116.801L149.677 112.899Z" fill="#F48120"></path><path d="M96.5898 151.183L89.9539 86.5642L112.074 116.801L96.5898 151.183Z" fill="#F9A64A"></path><path d="M149.677 112.899L96.5899 151.182L112.074 116.801L149.677 112.899Z" fill="#C64A1B"></path><path d="M20.1536 19.5074L63.9017 67.7884L28.0184 56.3278L20.1536 19.5074Z" fill="#F48120"></path><path d="M0 81.4435L63.9017 67.7883L28.0184 56.3276L0 81.4435Z" fill="#C64A1B"></path><path d="M20.1536 19.5074L0 81.4436L28.0184 56.3278L20.1536 19.5074Z" fill="#F9A64A"></path><path d="M10.3226 112.899L70.0461 86.5642L47.9263 116.801L10.3226 112.899Z" fill="#F9A64A"></path><path d="M63.1644 151.183L70.0461 86.5642L47.9263 116.801L63.1644 151.183Z" fill="#C64A1B"></path><path d="M10.3226 112.899L63.1644 151.182L47.9263 116.801L10.3226 112.899Z" fill="#F48120"></path></svg></g></g></svg></g><g id="dark-icon"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000"><g><g transform="matrix(3.8461538461538463,0,0,3.8461538461538463,0,0)"><svg xmlns="http://www.w3.org/2000/svg" width="260" height="260" viewBox="0 0 260 260" fill="none"><path d="M79.0381 12.1827L129.809 99.6712V41.3456L79.0381 12.1827Z" fill="white"></path><path d="M180.581 12.1827L129.809 99.6712V41.3456L180.581 12.1827Z" fill="white"></path><path d="M79.0381 12.1827H180.581L129.809 41.3456L79.0381 12.1827Z" fill="white"></path><path d="M222.953 42.4817L154.622 117.472L210.738 99.6711L222.953 42.4817Z" fill="white"></path><path d="M254.256 138.681L154.622 117.472L210.738 99.6709L254.256 138.681Z" fill="white"></path><path d="M222.954 42.4817L254.256 138.681L210.738 99.6711L222.954 42.4817Z" fill="white"></path><path d="M238.223 187.538L145.46 146.634L179.817 193.598L238.223 187.538Z" fill="white"></path><path d="M155.767 247L145.46 146.634L179.817 193.598L155.767 247Z" fill="white"></path><path d="M238.223 187.538L155.767 247L179.817 193.598L238.223 187.538Z" fill="white"></path><path d="M37.0464 42.4817L104.996 117.472L49.2621 99.6711L37.0464 42.4817Z" fill="white"></path><path d="M5.74377 138.681L104.996 117.472L49.2621 99.6709L5.74377 138.681Z" fill="white"></path><path d="M37.0464 42.4817L5.7438 138.681L49.2621 99.6711L37.0464 42.4817Z" fill="white"></path><path d="M21.7769 187.538L114.54 146.634L80.1831 193.598L21.7769 187.538Z" fill="white"></path><path d="M103.851 247L114.54 146.634L80.1831 193.598L103.851 247Z" fill="white"></path><path d="M21.7769 187.538L103.851 247L80.183 193.598L21.7769 187.538Z" fill="white"></path></svg></g></g></svg></g></svg>
